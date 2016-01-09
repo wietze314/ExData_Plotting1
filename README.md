@@ -1,3 +1,10 @@
+## About my submission
+
+Please note that my plots were made with a Dutch locale. So when day abbrivations are in a plot, the are 
+* do = Thursday
+* vr = Friday
+* za = Saturday
+
 ## Introduction
 
 This assignment uses data from
