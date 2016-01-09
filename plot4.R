@@ -12,10 +12,10 @@ rm(dat)
 #make plot 4 (in work directory)
 
 
-# set panels for plotting
-par(mfrow=c(2,2))
 
 png("plot4.png")
+# set panels for plotting
+par(mfrow=c(2,2))
 
 #plot 1
 plot(fil$DT,fil$Global_active_power
@@ -35,7 +35,7 @@ legend("topright", legend=names(fil)[7:9], col = c(1,2,4), lty=c(1,1,1)
 #plot 4
 plot(fil$DT,fil$Global_reactive_power
      , col=1 , type="l", main="", ylab= "Global reactive power", xlab="datetime")
-
-dev.off()
 # reset panel plot
 par(mfrow=c(1,1))
+
+dev.off()
